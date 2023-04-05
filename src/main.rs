@@ -1,7 +1,9 @@
 use std::{process, thread::sleep, time::Duration};
 
 use arboard::Clipboard;
-use colored::{control, Colorize};
+#[cfg(windows)]
+use colored::control;
+use colored::Colorize;
 use tts::{Error, Features, Tts};
 
 fn main() -> Result<(), Error> {
