@@ -2,12 +2,19 @@
 
 Command line utility to automatically read from clipboard.
 
-## Windows
+The binary is called `tts` instead of `tts-cli` for brevity.
+
+You can only exit with `Ctrl-C`. I want to keep this project very simple.
+
+To avoid errors you can lower the FPS const.
+
+## Build
+### Windows
 - cargo run --release
 
 Add voice packs or change the default voice in your system settings.
 
-## Linux
+### Linux
 These voices are not as good, sadly.
 - sudo apt install llvm-dev libclang-dev clang
   - https://rust-lang.github.io/rust-bindgen/requirements.html#debian-based-linuxes
