@@ -3,7 +3,7 @@
 Command line utility to automatically read from clipboard.
 
 ## Windows
-- cargo run
+- cargo run --release
 
 Add voice packs or change the default voice in your system settings.
 
