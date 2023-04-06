@@ -13,6 +13,6 @@ These voices are not as good, sadly.
   - https://rust-lang.github.io/rust-bindgen/requirements.html#debian-based-linuxes
 - sudo apt install speech_dispatcher
 - then based on speech dispatcher version:
-  - cargo run --features tts/speech_dispatcher_0_11
-  - cargo run --features tts/speech_dispatcher_0_10
-  - cargo run --features tts/speech_dispatcher_0_09
+  - cargo run --release --features tts/speech_dispatcher_0_11
+  - cargo run --release --features tts/speech_dispatcher_0_10
+  - cargo run --release --features tts/speech_dispatcher_0_09
