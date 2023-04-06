@@ -1,6 +1,6 @@
 [package]
 name = "tts-cli"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Command line utility to automatically read from clipboard."
 repository = "https://github.com/lesleyrs/tts-cli"
