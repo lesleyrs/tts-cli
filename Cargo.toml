@@ -2,6 +2,11 @@
 name = "tts-cli"
 version = "0.1.0"
 edition = "2021"
+description = "Command line utility to automatically read from clipboard."
+repository = "https://github.com/lesleyrs/tts-cli"
+license = "MIT OR Apache-2.0"
+keywords = ["tts", "text-to-speech", "cli", "clipboard", "narrator"]
+categories = ["accessibility", "command-line-utilities", "multimedia::audio"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
