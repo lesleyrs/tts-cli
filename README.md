@@ -21,6 +21,7 @@ These voices are not as good, sadly.
 - sudo apt install llvm-dev libclang-dev clang
   - https://rust-lang.github.io/rust-bindgen/requirements.html#debian-based-linuxes
 - sudo apt install speech-dispatcher
+- sudo apt install libspeechd-dev
 
 then one of the following based on `speech-dispatcher -v`
   ### Install
