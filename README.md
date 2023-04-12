@@ -20,7 +20,7 @@ Add voice packs or change the default voice in your system settings.
 These voices are not as good, sadly.
 - sudo apt install llvm-dev libclang-dev clang
   - https://rust-lang.github.io/rust-bindgen/requirements.html#debian-based-linuxes
-- sudo apt install speech_dispatcher
+- sudo apt install speech-dispatcher
 
 then one of the following based on `speech-dispatcher -v`
   ### Install
