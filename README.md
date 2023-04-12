@@ -22,12 +22,12 @@ These voices are not as good, sadly.
   - https://rust-lang.github.io/rust-bindgen/requirements.html#debian-based-linuxes
 - sudo apt install speech_dispatcher
 
-then based on `speech-dispatcher -v`
-- ### Install
-    - cargo install tts-cli --features tts/speech_dispatcher_0_11
-    - cargo install tts-cli --features tts/speech_dispatcher_0_10
-    - cargo install tts-cli --features tts/speech_dispatcher_0_09
-- ### Build
-    - cargo run --release --features tts/speech_dispatcher_0_11
-    - cargo run --release --features tts/speech_dispatcher_0_10
-    - cargo run --release --features tts/speech_dispatcher_0_09
+then one of the following based on `speech-dispatcher -v`
+  ### Install
+  - cargo install tts-cli
+  - cargo install tts-cli --no-default-features --features 10
+  - cargo install tts-cli --no-default-features --features 9
+  ### Build
+  - cargo run --release
+  - cargo run --release --no-default-features --features 10
+  - cargo run --release --no-default-features --features 9
