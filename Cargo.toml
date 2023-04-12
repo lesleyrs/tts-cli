@@ -10,6 +10,12 @@ categories = ["accessibility", "command-line-utilities", "multimedia::audio"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[features]
+default = ["11"]
+9 = ["tts/speech_dispatcher_0_9"]
+10 = ["tts/speech_dispatcher_0_10"]
+11 = ["tts/speech_dispatcher_0_11"]
+
 [dependencies]
 arboard = "3.2.0"
 colored = "2.0.0"
