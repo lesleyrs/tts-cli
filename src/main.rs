@@ -1,14 +1,10 @@
 use std::{process, thread::sleep, time::Duration};
 
 use arboard::Clipboard;
-#[cfg(windows)]
-use colored::control;
-use colored::Colorize;
+use owo_colors::colored::*;
 use tts::{Error, Features, Tts};
 
 fn main() -> Result<(), Error> {
-    #[cfg(windows)]
-    control::set_virtual_terminal(true).ok();
     const FPS: u32 = 60;
     const FRAME_TIME: Duration = Duration::new(0, 1_000_000_000 / FPS);
     let mut clipboard = Clipboard::new().unwrap();

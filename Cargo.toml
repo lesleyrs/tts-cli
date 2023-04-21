@@ -18,7 +18,7 @@ default = ["11"]
 
 [dependencies]
 arboard = "3.2.0"
-colored = "2.0.0"
+owo-colors = "3.5.0"
 tts = { version = "0.25.5", default-features = false }
 
 [[bin]]
